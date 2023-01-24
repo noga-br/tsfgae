@@ -1,0 +1,10 @@
+.map{
+    background: url('https://i.pinimg.com/564x/dc/2d/3d/dc2d3df0aacc0489e458c1a0554eec7c.jpg');     
+    background-size: cover;
+}
+
+.chess {
+    height: 60px;
+    width: 100px;
+}
+
