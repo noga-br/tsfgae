@@ -8,24 +8,29 @@ function activeChess() {
 function coverImgCheck(coverNum) {
     document.getElementById("cover" + coverNum).classList.add("imgCoverOnclick");
     // document.querySelector("#coverImage").disabled = true;
-    document.getElementById("coverImage").classList.add("hide");
+    //document.getElementById("coverImage").classList.add("hide");
     checkCoverNum(coverNum)
 }
 
+function showNum(num) {
+    document.getElementById("coverQuetionNum").innerHTML = num;
+}
+
 function checkCoverNum(coverNum) {
-    if (coverNum == 2) {
-        document.getElementById("coverQuetionNum").innerHTML("4");
-    }
-    else if(coverNum == 1) {
-        document.getElementById("coverQuetionNum").innerHTML("5");
-    }
-    else if(coverNum == 3) {
-        document.getElementById("coverQuetionNum").innerHTML("6");
-    }
-    else if(coverNum == 4) {
-        document.getElementById("coverQuetionNum").innerHTML("7");
-    }
-    else if(coverNum == 5) {
-        document.getElementById("coverQuetionNum").innerHTML("8");
+    switch(coverNum) {
+        case 2:
+            showNum("4");
+            break;
+        case 1:
+            showNum("8");
+            break;
+        case 3:
+            showNum("5");
+            break;
+        case 4:
+            showNum("6");
+            break;
+        case 5:
+            showNum("7");
     }
 }
