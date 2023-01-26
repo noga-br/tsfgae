@@ -1,7 +1,9 @@
 function activeChess() {
-    document.getElementById("body").className = "chessQuetionBackround";
-    //document.getElementById("chessPage").className = "hide";
+    //document.getElementById("body").className = "chessQuetionBackround";
+   // document.getElementById("chess").className == document.getElementById("hide").className;
     //document.getElementById("sfgaeChessPage").className = "show";
-    document.getElementById("chessPage").className = "hide";
+    alert("get here!");
+    document.getElementById("body").className = "sfgaeChessPage";
+    document.getElementById("maPage").className = "hide";
     document.getElementById("sfgaeChessPage").className = "show";
 }
