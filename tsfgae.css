@@ -8,7 +8,7 @@
     width: 50x;
     margin-top: 43.5%;
     margin-left: 51.5%;
-    cursor: pointer;;
+    cursor: pointer;
 }
 
 .show {
@@ -24,7 +24,31 @@
     background-image: url('https://evernever.com/wp-content/uploads/2021/07/Interactive-Map-School-for-Good-and-Evil.jpg');
     background-size: cover;
     display:flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
+}
+
+.chessSqure {
+    width: 600px;
+    height: 130px;
+    background-color: azure;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 28%;
+}
+
+.coverImg {
+    width: 260px;
+    height: 400px;
+    cursor: pointer;
+}
+
+.coverImgContanior {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
