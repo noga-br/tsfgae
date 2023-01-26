@@ -8,6 +8,7 @@
     width: 50px;
     margin-top: 43.5%;
     margin-left: 51.5%;
+    cursor: pointer;;
 }
 
 .show {
@@ -18,7 +19,7 @@
     display: none;
 }
 
-.chessQuetionBackround {
+.sfgaeChessPage {
     background-image: url('https://evernever.com/wp-content/uploads/2021/07/Interactive-Map-School-for-Good-and-Evil.jpg');
     background-size: cover;
     display:flex;
