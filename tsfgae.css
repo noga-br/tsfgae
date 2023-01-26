@@ -5,7 +5,7 @@
 
 .chess {
     height: 30px;
-    width: 50px;
+    width: 50x;
     margin-top: 43.5%;
     margin-left: 51.5%;
 }
@@ -19,8 +19,6 @@
 }
 
 .chessQuetionBackround {
-    background-image: url('https://evernever.com/wp-content/uploads/2021/07/Interactive-Map-School-for-Good-and-Evil.jpg');
-    background-size: cover;
     display:flex;
     justify-content: center;
     align-items: center;
