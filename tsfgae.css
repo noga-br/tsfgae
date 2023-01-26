@@ -21,12 +21,13 @@
 
 
 .sfgaeChessPage {
-    background-image: url('https://evernever.com/wp-content/uploads/2021/07/Interactive-Map-School-for-Good-and-Evil.jpg');
+    background-image: url('https://i.pinimg.com/474x/69/7b/4c/697b4c767d38d2098a1a5cbedaa32ba0.jpg');
     background-size: cover;
     display:flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 .chessSqure {
@@ -38,6 +39,9 @@
     align-items: center;
     justify-content: center;
     margin-left: 28%;
+    font-family: 'Lobster', cursive;  
+    font-size: 50px;
+     
 }
 
 .coverImg {
@@ -45,10 +49,25 @@
     height: 400px;
     cursor: pointer;
 }
+.coverImg:hover {
+    opacity: 0.6;
+}
+
+.imgCoverOnclick {
+    opacity: 0.6;
+}
 
 .coverImgContanior {
+    margin-top: 15%;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.coverImgContaniorDisable:disabled {
+    margin-top: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
