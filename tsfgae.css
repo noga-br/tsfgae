@@ -8,3 +8,19 @@
     width: 100px;
 }
 
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.chessQuetionBackround {
+    background-image: url('https://evernever.com/wp-content/uploads/2021/07/Interactive-Map-School-for-Good-and-Evil.jpg');
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
