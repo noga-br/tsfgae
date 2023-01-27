@@ -14,6 +14,7 @@ function coverImgCheck(coverNum) {
 
 function showNum(num) {
     document.getElementById("coverQuetionNum").innerHTML = num;
+    document.getElementById("coverQuetionNum").className = "coverQuestionNum";
 }
 
 function checkCoverNum(coverNum) {

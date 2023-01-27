@@ -66,5 +66,8 @@
 }
 
 .coverQuestionNum {
-    font-size: xx-large;
+    font-size: 250px ;
+    color:rgb(152, 230, 232);
+    font-family: 'Solitreo', cursive;
+    margin-left:48%;
 }
