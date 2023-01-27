@@ -6,7 +6,7 @@
 .chess {
     height: 30px;
     width: 50x;
-    margin-top: 43.5%;
+    margin-top: 8%;
     margin-left: 51.5%;
     cursor: pointer;
 }
@@ -54,11 +54,10 @@
 }
 
 .imgCoverOnclick {
-    opacity: 0.6;
+    opacity: 0.3;
 }
 
 .coverImgContanior {
-    margin-top: 15%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -66,8 +65,24 @@
 }
 
 .coverQuestionNum {
-    font-size: 250px ;
+    font-size: 150px ;
     color:rgb(152, 230, 232);
     font-family: 'Solitreo', cursive;
     margin-left:48%;
+}
+
+.backToMain {
+    margin-top: 15%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.letter {
+    height: 30px;
+    width: 50x;
+    margin-top: 34%;
+    margin-left: 29%;
+    cursor: pointer;
 }

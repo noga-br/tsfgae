@@ -15,6 +15,7 @@ function coverImgCheck(coverNum) {
 function showNum(num) {
     document.getElementById("coverQuetionNum").innerHTML = num;
     document.getElementById("coverQuetionNum").className = "coverQuestionNum";
+    document.getElementById("coverQuestionNumCover").className = "show";
 }
 
 function checkCoverNum(coverNum) {
@@ -34,4 +35,19 @@ function checkCoverNum(coverNum) {
         case 5:
             showNum("7");
     }
+}
+
+function backToMain() {
+    document.getElementById("sfgaeChessPage").className ="hide";
+    document.getElementById("maPage").className = "show";
+    document.getElementById("body").className = "map";
+   // for (let i = 0; i < 5; i++) {
+     //   document.getElementById("cover" + i).classList.add("coverImg");
+    //  }
+    document.getElementById("cover1").classList.add("coverImg");
+    document.getElementById("cover2").classList.add("coverImg");
+    document.getElementById("cover3").classList.add("coverImg");
+    document.getElementById("cover4").classList.add("coverImg");
+    document.getElementById("cover5").classList.add("coverImg");
+    document.getElementById("coverQuestionNum").innerHTML = " ";
 }
