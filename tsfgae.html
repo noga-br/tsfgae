@@ -26,11 +26,10 @@
 
     
     <div id ="maPage" class ="show">
-        <img id="letterPortal" class="letter" src="https://media.istockphoto.com/id/1205550082/vector/realistic-closed-vintage-old-aged-letter-envelop-with-round-dark-red-wax-seal-stamp-paper.jpg?s=2048x2048&w=is&k=20&c=zAKxVrNyuzokPRMZwt9O82_nS6HqS-rmrJelJzpWWQ4=">
+        <img id="letterPortal" class="letter" onclick="activLetter()" src="https://media.istockphoto.com/id/1205550082/vector/realistic-closed-vintage-old-aged-letter-envelop-with-round-dark-red-wax-seal-stamp-paper.jpg?s=2048x2048&w=is&k=20&c=zAKxVrNyuzokPRMZwt9O82_nS6HqS-rmrJelJzpWWQ4=">
        <div>
         <img src="http://folkmasa.org/ant/ant_files/image001.jpg" id="chess" class="chess" onclick="activeChess()">
         </div>
-        <img src="https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/14/2015/04/christies-carriage.jpg" id="carriage" class="chess" onclick="activecarriage()">
 
     </div>
 
@@ -44,11 +43,11 @@
         </div>
 
         <div id="coverImage" class="coverImgContanior">
-            <img id="cover1" class="coverImg" onclick="coverImgCheck(1)" src="https://i.pinimg.com/564x/60/3a/01/603a01dc3acb9479a92bec731600951f.jpg">
-            <img id="cover2" class="coverImg" onclick="coverImgCheck(2)" src="https://i0.wp.com/tahvivim.com/wp-content/uploads/2021/06/schge.jpg?fit=717%2C377&ssl=1">
-            <img id="cover3" class="coverImg" onclick="coverImgCheck(3)" src="https://i.pinimg.com/564x/40/0f/c3/400fc34bedaae9c1d16c1760131f654b.jpg">
-            <img id="cover4" class="coverImg" onclick="coverImgCheck(4)" src="https://i.pinimg.com/564x/b5/90/32/b590328eae777ae45fe6f9011e905a8e.jpg">
-            <img id="cover5" class="coverImg" onclick="coverImgCheck(5)" src="https://i.pinimg.com/564x/97/e9/53/97e953c7ff846b7812f06e4ff336d7e7.jpg">
+            <img id="cover1" class="coverImg" onclick="coverImgCheck('cover',1)" src="https://i.pinimg.com/564x/60/3a/01/603a01dc3acb9479a92bec731600951f.jpg">
+            <img id="cover2" class="coverImg" onclick="coverImgCheck('cover',2)" src="https://i0.wp.com/tahvivim.com/wp-content/uploads/2021/06/schge.jpg?fit=717%2C377&ssl=1">
+            <img id="cover3" class="coverImg" onclick="coverImgCheck('cover',3)" src="https://i.pinimg.com/564x/40/0f/c3/400fc34bedaae9c1d16c1760131f654b.jpg">
+            <img id="cover4" class="coverImg" onclick="coverImgCheck('cover',4)" src="https://i.pinimg.com/564x/b5/90/32/b590328eae777ae45fe6f9011e905a8e.jpg">
+            <img id="cover5" class="coverImg" onclick="coverImgCheck('cover',5)" src="https://i.pinimg.com/564x/97/e9/53/97e953c7ff846b7812f06e4ff336d7e7.jpg">
         </div>
         
         <div id="coverQuestionNumCover">
@@ -56,6 +55,29 @@
        </div>
 
         
+</div>
+
+
+<div class="hide" id="sfgaeLetterPage">
+    <div class ="chessSqure">Wich one are Sofi and Agatha?</div>
+
+    <div>
+        <img id="backToMain" class="backToMain" onclick ="backToMain()" alt="back" src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/image/rDtN98Qoishumwih/back-arrow-blue-circle_z1k9I88u_SB_PM.jpg">
+    </div>
+
+    <div id="coverImage" class="coverImgContanior">
+        <img id="letter1" class="coverImgLetter" onclick="coverImgCheck(1)" src="https://i.pinimg.com/736x/6f/77/9a/6f779abbc2cb22ffc02b944f7aac1ac4.jpg">
+        <img id="letter2" class="coverImgLetter" onclick="coverImgCheck(2)" src="https://i.pinimg.com/564x/e2/07/c8/e207c8034fd9687eee3af9965131d245.jpg">
+        <img id="letter3" class="coverImgLetter" onclick="coverImgCheck(3)" src="https://i.pinimg.com/474x/8d/7d/12/8d7d121bc837a17118e5603b2beed61f.jpg">
+        <img id="letter4" class="coverImgLetter" onclick="coverImgCheck(4)" src="https://i.pinimg.com/564x/b5/90/32/b590328eae777ae45fe6f9011e905a8e.jpg">
+        <img id="letter5" class="coverImgLetter" onclick="coverImgCheck(5)" src="https://i.pinimg.com/564x/97/e9/53/97e953c7ff846b7812f06e4ff336d7e7.jpg">
+    </div>
+    
+    <div id="coverQuestionNumCover">
+    <div class="coverQuestionNum" id="coverQuetionNum"></div>
+   </div>
+
+    
 </div>
 
      

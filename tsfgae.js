@@ -5,18 +5,20 @@ function activeChess() {
     alert("You have found the box!");
 }
 
-function coverImgCheck(coverNum) {
-    document.getElementById("cover" + coverNum).classList.add("imgCoverOnclick");
-    // document.querySelector("#coverImage").disabled = true;
-    //document.getElementById("coverImage").classList.add("hide");
-    checkCoverNum(coverNum)
+function coverImgCheck(item,coverNum) {
+        document.getElementById(item + coverNum).classList.add("imgCoverOnclick");
+        // document.querySelector("#coverImage").disabled = true;
+        //document.getElementById("coverImage").classList.add("hide");
+    switch(item) {
+      case "cover":
+        checkCoverNum(coverNum);
+        break;
+      case "letter":
+        checkLetterNum(coverNum);
+    }
+    
 }
 
-function showNum(num) {
-    document.getElementById("coverQuetionNum").innerHTML = num;
-    document.getElementById("coverQuetionNum").className = "coverQuestionNum";
-    document.getElementById("coverQuestionNumCover").className = "show";
-}
 
 function checkCoverNum(coverNum) {
     switch(coverNum) {
@@ -37,6 +39,31 @@ function checkCoverNum(coverNum) {
     }
 }
 
+function checkLetterNum(coverNum) {
+    switch(coverNum) {
+        case 2:
+            showNum("9");
+            break;
+        case 1:
+            showNum("2");
+            break;
+        case 3:
+            showNum("3");
+            break;
+        case 4:
+            showNum("1");
+            break;
+        case 5:
+            showNum("5");
+    }
+}
+
+function showNum(num) {
+    document.getElementById("coverQuetionNum").innerHTML = num;
+    document.getElementById("coverQuetionNum").className = "coverQuestionNum";
+    document.getElementById("coverQuestionNumCover").className = "show";
+}
+
 function backToMain() {
     document.getElementById("sfgaeChessPage").className ="hide";
     document.getElementById("maPage").className = "show";
@@ -50,4 +77,11 @@ function backToMain() {
     document.getElementById("cover4").classList.add("coverImg");
     document.getElementById("cover5").classList.add("coverImg");
     document.getElementById("coverQuestionNum").innerHTML = " ";
+}
+
+function activLetter() {
+    document.getElementById("body").className = "sfgaeLetterPage";
+    document.getElementById("maPage").className = "hide";
+    document.getElementById("sfgaeChessPage").className = "show";
+    alert("You have found the king's letter!");
 }

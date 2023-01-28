@@ -87,6 +87,16 @@
     cursor: pointer;
 }
 
+.sfgaeLetterPage {
+    background-image: url('https://i.pinimg.com/736x/44/99/4a/44994abb840d4a694eacc5847629f87d.jpg');
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
 .carriage {
     height: 50px;
     width: 60px;
