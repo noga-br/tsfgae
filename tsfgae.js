@@ -42,19 +42,19 @@ function checkCoverNum(coverNum) {
 function checkLetterNum(coverNum) {
     switch(coverNum) {
         case 2:
-            showNum("9");
+            showLetterNum("9");
             break;
         case 1:
-            showNum("2");
+            showLetterNum("2");
             break;
         case 3:
-            showNum("3");
+            showLetterNum("3");
             break;
         case 4:
-            showNum("1");
+            showLetterNum("1");
             break;
         case 5:
-            showNum("5");
+            showLetterNum("5");
     }
 }
 
@@ -64,8 +64,15 @@ function showNum(num) {
     document.getElementById("coverQuestionNumCover").className = "show";
 }
 
+function showLetterNum(num) {
+    document.getElementById("letterQuetionNum").innerHTML = num;
+    document.getElementById("letterQuetionNum").className = "coverQuestionNum";
+    document.getElementById("coverQuestionNumLetter").className = "show";
+}
+
 function backToMain() {
     document.getElementById("sfgaeChessPage").className ="hide";
+    document.getElementById("sfgaeLetterPage").className = "hide";
     document.getElementById("maPage").className = "show";
     document.getElementById("body").className = "map";
    // for (let i = 0; i < 5; i++) {
@@ -80,8 +87,8 @@ function backToMain() {
 }
 
 function activLetter() {
+    alert("You have found the king's letter!");
     document.getElementById("body").className = "sfgaeLetterPage";
     document.getElementById("maPage").className = "hide";
-    document.getElementById("sfgaeChessPage").className = "show";
-    alert("You have found the king's letter!");
+    document.getElementById("sfgaeLetterPage").className = "show";
 }

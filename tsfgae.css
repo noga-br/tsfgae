@@ -41,7 +41,19 @@
     margin-left: 28%;
     font-family: 'Lobster', cursive;  
     font-size: 50px;
-     
+}
+
+.letterSqure {
+    width: 800px;
+    height: 130px;
+    background-color: azure;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 28%;
+    font-family: 'Lobster', cursive;  
+    font-size: 50px;
 }
 
 .coverImg {
@@ -94,6 +106,16 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.coverImgLetter {
+    width: 300px;
+    height: 500px;
+    cursor: pointer;
+}
+
+.coverImgLetter:hover {
+    opacity: 0.6;
 }
 
 
