@@ -42,19 +42,19 @@ function checkCoverNum(coverNum) {
 function checkLetterNum(coverNum) {
     switch(coverNum) {
         case 2:
-            showLetterNum("9");
+            showLetterNum("");
             break;
         case 1:
-            showLetterNum("2");
+            showLetterNum("");
             break;
         case 3:
-            showLetterNum("3");
+            showLetterNum("");
             break;
         case 4:
-            showLetterNum("1");
+            showLetterNum("");
             break;
         case 5:
-            showLetterNum("5");
+            showLetterNum("");
     }
 }
 
@@ -88,7 +88,4 @@ function backToMain() {
 
 function activLetter() {
     alert("You have found the king's letter!");
-    document.getElementById("body").className = "sfgaeLetterPage";
-    document.getElementById("maPage").className = "hide";
-    document.getElementById("sfgaeLetterPage").className = "show";
 }
