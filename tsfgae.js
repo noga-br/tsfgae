@@ -91,3 +91,7 @@ function letterNextPage() {
 document.getElementById("letterLetter").className = "hide";
 document.getElementById("sfgaeLetterPageShow").add.classList = "show";
 }
+
+function activePen() {
+    alert("You have found the Pen!")
+}

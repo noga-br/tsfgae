@@ -146,3 +146,11 @@
     align-items: center;
     justify-content: center;
 }
+
+.pen {
+    height: 30px;
+    width: 50x;
+    margin-top: 26%;
+    margin-left: 60%;
+    cursor: pointer;
+}
