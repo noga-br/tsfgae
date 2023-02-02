@@ -1,7 +1,4 @@
 function activeChess() {
-   // document.getElementById("body").className = "sfgaeChessPage";
-    //document.getElementById("maPage").className = "hide";
-   // document.getElementById("sfgaeChessPage").className = "show";
     alert("You have found the box!");
 }
 
