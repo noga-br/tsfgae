@@ -60,6 +60,7 @@
     width: 260px;
     height: 400px;
     cursor: pointer;
+    margin-left: 30px;
 }
 .coverImg:hover {
     opacity: 0.6;
