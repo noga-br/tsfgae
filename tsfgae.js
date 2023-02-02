@@ -86,3 +86,8 @@ function backToMain() {
 function activLetter() {
     alert("You have found the king's letter!");
 }
+
+function letterNextPage() {
+document.getElementById("letterLetter").className = "hide";
+document.getElementById("sfgaeLetterPageShow").add.classList = "show";
+}
