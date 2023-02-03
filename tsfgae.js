@@ -57,7 +57,6 @@ function checkLetterNum(coverNum) {
     }
 }
 
-//img class
 function setImgNormal(item) {
     for (let i = 1; i <= 5; i++) {
       document.getElementById(item + i).className = "coverImg";
@@ -75,6 +74,7 @@ function showLetterNum(num) {
     document.getElementById("letterQuetionNum").className = "coverQuestionNum";
     document.getElementById("coverQuestionNumLetter").className = "show";
     document.getElementById("letterQuetionButton").className = "hide";
+    document.getElementById("letterTryAgainB").className = "show";
 }
 
 function backToMain() {
@@ -113,4 +113,5 @@ function activMask() {
 function showButtonLetterRight() {
     document.getElementById("coverQuestionNumLetter").className = "hide";
     document.getElementById("letterQuetionButton").className = "show";
+    document.getElementById("letterTryAgainB").className = "hide"
 }

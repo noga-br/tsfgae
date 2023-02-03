@@ -75,6 +75,7 @@
 }
 
 .coverImgContanior {
+    margin-top: 40px;
     width: 100%;
     align-items: center;
 }
@@ -250,4 +251,9 @@
 
 .moveOnLetterButton {
     margin-left: 50%;
+}
+
+.coverQuestionWorld {
+    font-size: 40px;
+    color: rgba(162, 50, 50, 0.82);
 }
