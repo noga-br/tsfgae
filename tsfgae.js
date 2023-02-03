@@ -3,7 +3,8 @@ function activeChess() {
 }
 
 function coverImgCheck(item,coverNum) {
-        document.getElementById(item + coverNum).classList.add("imgCoverOnclick");
+        setImgNormal(item);
+        document.getElementById(item + coverNum).className = "imgCoverOnclick";
         // document.querySelector("#coverImage").disabled = true;
         //document.getElementById("coverImage").classList.add("hide");
     switch(item) {
@@ -57,8 +58,8 @@ function checkLetterNum(coverNum) {
 
 //img class
 function setImgNormal(item) {
-    for (let i = 0; i < 5; i++) {
-      document.getElementById(item + i).classList.add("coverImg");
+    for (let i = 1; i <= 5; i++) {
+      document.getElementById(item + i).className = "coverImg";
     }
 }
 
