@@ -62,7 +62,7 @@
     cursor: pointer;
     margin-left: 30px;
 }
-.coverImg>:hover {
+.coverImg:hover {
     opacity: 0.6;
 }
 
