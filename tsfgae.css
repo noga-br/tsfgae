@@ -170,16 +170,28 @@
 
 .penContanior {
     background-image: url('https://i.pinimg.com/564x/12/0b/9b/120b9b64644b9d233da75e36f0f1c634.jpg');
+    width: 20%;
+    height: 20%;
+}
+
+.codeEnterecpageInside {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.centered {
+  position: fixed;
+  top: 30%;
+  left: 28%;
+}
+
 .codeEnterecpage {
-    width: 200px;
-    height: 300px;
-    background-color: rgb(63, 193, 222);
+    width: 1200px;
+    height: 700px;
+    background-color: rgb(147, 203, 209);
+    opacity: 0.8;
 }
 
 .letterButton {
@@ -219,4 +231,11 @@
   .letterButton {
     padding: 24px;
   }
+}
+
+.endBox {
+    margin-top: 60px;
+    cursor: pointer;
+    width: 200px;
+    height: 300px;
 }
