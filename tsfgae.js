@@ -55,6 +55,13 @@ function checkLetterNum(coverNum) {
     }
 }
 
+//img class
+function setImgNormal(item) {
+    for (let i = 0; i < 5; i++) {
+      document.getElementById(item + i).classList.add("coverImg");
+    }
+}
+
 function showNum(num) {
     document.getElementById("coverQuetionNum").innerHTML = num;
     document.getElementById("coverQuetionNum").className = "coverQuestionNum";
@@ -89,9 +96,13 @@ function activLetter() {
 
 function letterNextPage() {
 document.getElementById("letterLetter").className = "hide";
-document.getElementById("sfgaeLetterPageShow").add.classList = "show";
+document.getElementById("sfgaeLetterPage").className = "show";
 }
 
 function activePen() {
-    alert("You have found the Pen!")
+    alert("You have found the Pen!");
+}
+
+function activMask() {
+    alert("You have found the mask!");
 }
