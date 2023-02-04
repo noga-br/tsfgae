@@ -254,8 +254,9 @@
 }
 
 .coverQuestionWorld {
-    margin-left: 53%;
-    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 55%;
+    font-size: 65px;
     color: rgba(162, 50, 50, 0.82);
 }
 
