@@ -150,6 +150,9 @@
 }
 
 .letterText {
+    height: 300px;
+    width: 120%;
+    margin-top: 20%;
     background-color: rgb(223, 231, 202);
     z-index: 1;
     display: flex;
@@ -160,6 +163,7 @@
 
 .mainLineLetter {
     font-size: 30px;
+    font-family: 'Itim', cursive;
 }
 
 .letterLetter {
@@ -297,4 +301,9 @@
     .letterWorngButton {
       padding: 24px;
     }
+  }
+
+  .letterFirstP {
+    font-family: 'Solitreo', cursive;
+    font-size: 34px;
   }

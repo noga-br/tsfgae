@@ -118,4 +118,5 @@ function showButtonLetterRight() {
 function showAllLetter() {
     document.getElementById("sfgaeLetterPage").className = "hide";
     document.getElementById("coverQuestionNumCover").className = "show";
+    document.getElementById("letterTextLetter").className = "show";
 }
