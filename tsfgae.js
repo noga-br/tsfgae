@@ -71,7 +71,6 @@ function showNum(num) {
 
 function showLetterNum(num) {
     document.getElementById("letterQuetionNum").innerHTML = num;
-    document.getElementById("letterQuetionNum").className = "coverQuestionNum";
     document.getElementById("coverQuestionNumLetter").className = "show";
     document.getElementById("letterQuetionButton").className = "hide";
     document.getElementById("letterTryAgainB").className = "show";
@@ -114,4 +113,9 @@ function showButtonLetterRight() {
     document.getElementById("coverQuestionNumLetter").className = "hide";
     document.getElementById("letterQuetionButton").className = "show";
     document.getElementById("letterTryAgainB").className = "hide"
+}
+
+function showAllLetter() {
+    document.getElementById("sfgaeLetterPage").className = "hide";
+    document.getElementById("coverQuestionNumCover").className = "show";
 }
