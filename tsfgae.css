@@ -308,7 +308,18 @@
     font-size: 34px;
   }
 
+  .letterFirstP2 {
+    font-family: 'Solitreo', cursive;
+    font-size: 25px;
+    margin-right: 22%;
+  }
+
   .hint {
     margin-left: 50%;
     margin-top: 27%;
+  }
+
+  .penInstraction2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 170%;
   }
