@@ -307,3 +307,8 @@
     font-family: 'Solitreo', cursive;
     font-size: 34px;
   }
+
+  .hint {
+    margin-left: 50%;
+    margin-top: 27%;
+  }
