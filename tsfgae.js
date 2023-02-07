@@ -107,3 +107,27 @@ function activePen() {
 function activMask() {
     alert("You have found the mask!");
 }
+
+function activDoor() {
+    window.location.replace("door.html");
+
+    alert("You found the mysterious door!");
+    setTimeout(function() {
+        activDoor2()
+    },10)
+    
+}
+
+function activDoor2() {
+    alert("Haha I caught you");
+    alert("I'll let you go and tell you the third number only if you will answer this question correctly:")
+    answer = prompt("What is the answer?");
+
+    if (answer == "answer"){
+        alert("Ugh you are right:( the number is 8")
+    }
+    else{
+        alert("You stuck here forever haha")
+    }
+}
+

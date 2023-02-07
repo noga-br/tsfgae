@@ -228,3 +228,11 @@
     padding: 24px;
   }
 }
+
+.door {
+    height: 50px;
+    width: 50x;
+    margin-top: 7.5%;
+    margin-left: 35%;
+    cursor: pointer; 
+}
