@@ -13,6 +13,7 @@ function coverImgCheck(item,coverNum) {
         break;
       case "letter":
         checkLetterNum(coverNum);
+        break;
     }
     
 }
@@ -40,23 +41,22 @@ function checkCoverNum(coverNum) {
 function checkLetterNum(coverNum) {
     switch(coverNum) {
         case 2:
-            showLetterNum("");
+            showLetterNum("Worng");
             break;
         case 1:
-            showLetterNum("");
+            showLetterNum("Worng");
             break;
         case 3:
-            showLetterNum("");
+            showButtonLetterRight();
             break;
         case 4:
-            showLetterNum("");
+            showLetterNum("Worng");
             break;
         case 5:
-            showLetterNum("");
+            showLetterNum("Worng");
     }
 }
 
-//img class
 function setImgNormal(item) {
     for (let i = 1; i <= 5; i++) {
       document.getElementById(item + i).className = "coverImg";
@@ -71,8 +71,9 @@ function showNum(num) {
 
 function showLetterNum(num) {
     document.getElementById("letterQuetionNum").innerHTML = num;
-    document.getElementById("letterQuetionNum").className = "coverQuestionNum";
     document.getElementById("coverQuestionNumLetter").className = "show";
+    document.getElementById("letterQuetionButton").className = "hide";
+    document.getElementById("letterTryAgainB").className = "show";
 }
 
 function backToMain() {
@@ -131,3 +132,13 @@ function activDoor2() {
     }
 }
 
+function showButtonLetterRight() {
+    document.getElementById("coverQuestionNumLetter").className = "hide";
+    document.getElementById("letterQuetionButton").className = "show";
+    document.getElementById("letterTryAgainB").className = "hide"
+}
+
+function showAllLetter() {
+    document.getElementById("sfgaeLetterPage").className = "hide";
+    document.getElementById("letterTextLetter").className = "show";
+}
