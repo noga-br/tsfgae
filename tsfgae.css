@@ -322,7 +322,9 @@
   }
 
   .hint {
-    margin-left: 50%;
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+    margin-left: 37%;
     margin-top: 27%;
   }
 
