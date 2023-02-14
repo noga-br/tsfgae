@@ -105,16 +105,12 @@ function activePen() {
     alert("You have found the Pen!");
 }
 
-function activMask() {
-    alert("You have found the mask!");
-}
-
 function activDoor() {
     window.location.replace("door.html");
 
-    alert("You found the mysterious door!");
+    alert("You found the evil door!");
     setTimeout(function() {
-        activDoor2()
+        activDoor2();
     },10)
     
 }
